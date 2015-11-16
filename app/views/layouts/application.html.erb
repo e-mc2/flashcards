@@ -25,17 +25,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><%= link_to "Все карточки", '#' %></li>
+					<li><%= link_to "Все карточки", cards_path %></li>
 					<li><%= link_to "Добавить карточку", '#' %></a></li>
 				</ul>
 			</div>
 
 		</div>
 	</nav>
-
-	<div class="container-fluid">
-		<p class="lead">Первый в мире удобный менеджер флеш-карточек. Именно так.</p>
-	</div>
 
 	<%= yield %>
 
