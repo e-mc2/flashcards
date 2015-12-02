@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :cards, only: [:index, :create]
+  resources :cards, only: [:index, :new, :create]
 
   root 'welcome#index'
 
