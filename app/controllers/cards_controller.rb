@@ -5,10 +5,6 @@ class CardsController < ApplicationController
     @cards = Card.all.order("review_date ASC")
   end
 
-  def show
-    
-  end
-
   def new
     @card = Card.new
   end
